@@ -12,7 +12,7 @@ export default [
 		name: 'exist-query',
 		plugins: [
 			resolve(),
-			commonjs()
+			commonjs(),
 		]
 	},
 	{
