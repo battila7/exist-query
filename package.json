@@ -2,8 +2,12 @@
   "name": "exist-query",
   "version": "1.0.0",
   "description": "Browser-friendly eXist-db XQuery executor.",
-  "main": "lib/index.js",
+  "main": "lib/exist-query.cjs.js",
+  "module": "lib/exist-query.esm.js",
+  "browser": "lib/exist-query.umd.js",
   "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/battila7/exist-query/issues"
   },
-  "homepage": "https://github.com/battila7/exist-query#readme"
+  "homepage": "https://github.com/battila7/exist-query#readme",
+  "dependencies": {
+    "axios": "^0.17.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.0.0-beta.34",
+    "rollup": "^0.52.1",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  }
 }
