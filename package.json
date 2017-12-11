@@ -1,0 +1,23 @@
+{
+  "name": "exist-query",
+  "version": "1.0.0",
+  "description": "Browser-friendly eXist-db XQuery executor.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/battila7/exist-query.git"
+  },
+  "keywords": [
+    "exist-db",
+    "xquery"
+  ],
+  "author": "Attila Bagossy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/battila7/exist-query/issues"
+  },
+  "homepage": "https://github.com/battila7/exist-query#readme"
+}
