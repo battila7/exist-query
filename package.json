@@ -1,6 +1,6 @@
 {
   "name": "exist-query",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser-friendly eXist-db XQuery executor.",
   "main": "lib/exist-query.cjs.js",
   "module": "lib/exist-query.esm.js",
