@@ -1,7 +1,4 @@
 const Query = {
-    deps: {
-        fetch
-    },
     defaultOptions: {
         start: 1,
         max: 1024,
@@ -16,7 +13,7 @@ const Query = {
         this.properties = properties;
     },
     execute() {
-        return this.deps.fetch(this.uri(), {
+        return fetch(this.uri(), {
             method: 'post',
             body: this.body(),
             headers: this.headers()
