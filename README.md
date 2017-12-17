@@ -11,7 +11,7 @@ const connectionOptions = {
     uri: 'localhost:8080/exist',
     credentials: {
         username: 'admin',
-        password: 'admin
+        password: 'admin'
     }
 };
 
